@@ -66,3 +66,7 @@ document.forms.publish.onsubmit = function() {
     return false;
 };
 
+function jivo_onLoadCallback() {
+    console.log('Widget fully loaded');
+    jivo_api.setUserToken("token123456);
+}
