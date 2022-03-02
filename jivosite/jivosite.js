@@ -3,6 +3,9 @@
 	Callback function that is called immediately after JivoChat is loaded
 */
 function jivo_onLoadCallback(){
+
+	console.log('Чат полностью загружен');
+	
 	// Create a DIV element for the label
 	window.jivo_cstm_widget = document.createElement('div');
 	jivo_cstm_widget.setAttribute('id', 'jivo_custom_widget');
